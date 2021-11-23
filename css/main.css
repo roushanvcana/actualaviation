@@ -6846,7 +6846,17 @@ form[class*=c-mb-] .row:last-child [class^=col-],
     -webkit-order: 10000;
     order: 10000
 }
-
+/**/
+video {  
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+ 
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/**/
 .fw-divider-special,
 .fw-divider-special-center,
 .fw-divider-special-center-big {
@@ -7975,7 +7985,8 @@ article.s-overlay.ds:before {
 #box_wrapper>section,
 #box_wrapper>div>section {
     clear: both;
-    position: relative
+    position: relative;
+	margin: -10px 0 0;
 }
 
 #canvas.boxed {
