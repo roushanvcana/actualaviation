@@ -8804,10 +8804,10 @@ body.boxed {
     color: #6d7a82
 }
 .lsl {
-	background: url("../img/usa/f35a.jpg") fixed;
+	background: url("../img/usa/bomber.jpg") fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: bottom center;
+	background-position: top center;
 }
 .lsl::before {
 	content: "";
