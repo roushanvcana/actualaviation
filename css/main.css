@@ -11,7 +11,7 @@ html {
 }
 
 ::-moz-selection {
- background-color: #f4ca59;
+ background-color: #f4ca59;  
  color: #fff
 }
 ::selection {
@@ -17226,7 +17226,7 @@ article.fw-services {
 	width: 100%
 }
 .image-with-list img {
-	margin-top: 40px
+	margin: 115px 0px 0 30px;
 }
 .image-with-list .left-column ul.list-styled li:nth-child(1) {
 	right: -3.7em
@@ -18028,3 +18028,220 @@ p.entry-description {
 .header-bg a:not(.btn) {
 	color: #000;
 }
+
+
+/* breadcrumb-section */
+
+.breadcrumb-section{
+	padding: 100px 50px 100px 50px;
+	background-image: url(../images/american-soldier-mourning-praying-with-american-flag-front-him.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 100vw #343a40d4;
+}
+
+.breadcrumb-section .container .row .crumb-text h2{
+	color: #f4ca59;
+	margin: 0 0 25px 0;
+}
+
+.breadcrumb-section .container .row .crumb-list ul.list {
+    list-style-type: none;
+    display: flex;
+	padding: 0%;
+}
+
+.breadcrumb-section .container .row .crumb-list ul.list li a{
+   font-size: 20px;
+   color: #FFFFFF;
+   font-weight: 600;
+}
+
+.breadcrumb-section .container .row .crumb-list ul.list li a:hover{
+	color: #f4ca59;
+ }
+
+.breadcrumb-section .container .row .crumb-list ul.list li.active {
+    font-size: 20px;
+    color: #f4ca59;
+	font-weight: 600;
+}
+
+
+/* breadcrumb-section */
+
+
+/* about-section */
+
+.about-section{
+	padding: 150px 50px 150px 50px;
+	background: #dee2e6;
+}
+
+.about-section .container .row .about-heading h1{
+	margin: 0 0 40px 0;
+    line-height: 80px;
+	color: #f4ca59;
+}
+
+.about-section .container .row .about-heading p{
+	margin: 0 0 45px 0;
+}
+
+.about-section .container .row .about-heading h1 span{
+	color: #0c0c0c;
+}
+
+
+.about-section .container .row .about-img{
+	position: relative;
+	padding: 20px;
+}
+
+.about-section .container .row .about-img .img-1{
+position: absolute;
+border-radius: 10px;
+box-shadow: 10px 10px 10px 10px #4950579e;
+width: 90%;
+}
+
+.about-section .container .row .about-img .img-1:hover{
+	transform: scale(1.1);
+	transition: .5s;
+	opacity: 0.8;
+}
+
+
+.about-section .container .row .about-img .img-2{
+	position: absolute;
+	top: 168px;
+	left: 119px;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px 10px #4950579e;
+	width: 90%;
+}
+
+.about-section .container .row .about-img .img-2:hover{
+	transform: scale(1.1);
+	transition: .5s;
+	opacity: 0.9;
+}
+
+
+/* about-section */
+
+
+/* service-section */
+
+.service-icon{
+	padding: 100px 50px 100px 50px;
+	background-image: url(../images/404_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 100vw #343a4078;
+}
+
+.service-icon .container .row .icon-styled .icon-medal-1, .icon-radar-1, .icon-aim-1, .icon-tent{
+    color: yellow;
+    font-size: 80px;
+}
+
+.service-icon .container .row .icon-styled h5{
+    color: #FFFFFF;
+    font-size: 23px;
+	margin-bottom: 0.9em;
+    margin-top: 1.95em;
+}
+
+.service-icon .container .row .icon-styled p{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+/* service-section */
+
+/* map-section */
+
+.map-section{
+	background: #052d6d;
+}
+
+.map-section .container .row h1{
+	color: #FFFFFF;
+}
+
+.map-section .container .row h4{
+	color: #FFFFFF;
+}
+
+.map-section .container .row ul li p, a span{
+	color: #FFFFFF;
+}
+
+/* map-section */
+
+/* breadcrumb-service */
+
+.breadcrumb-services{
+	padding: 100px 50px 100px 50px;
+	background-image: url(../images/blog/02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 100vw #343a40d4;
+}
+
+.breadcrumb-services .container .row .crumb-text h2{
+	color: #f4ca59;
+	margin: 0 0 25px 0;
+}
+
+.breadcrumb-services .container .row .crumb-list ul.list {
+    list-style-type: none;
+    display: flex;
+	padding: 0%;
+}
+
+.breadcrumb-services .container .row .crumb-list ul.list li a{
+   font-size: 20px;
+   color: #FFFFFF;
+   font-weight: 600;
+}
+
+.breadcrumb-services .container .row .crumb-list ul.list li a:hover{
+	color: #f4ca59;
+ }
+
+.breadcrumb-services .container .row .crumb-list ul.list li.active {
+    font-size: 20px;
+    color: #f4ca59;
+	font-weight: 600;
+}
+
+
+/* breadcrumb-service */
+
+/* services-section */
+
+.services-section{
+  padding: 100px 50px 100px 50px;
+  background: #dee2e6;
+}
+
+.services-section .container .row .service-grid{
+	margin: 0 0 40px 0;
+}
+
+.services-section .container .row .service-grid .card{
+	box-shadow: 10px 10px 10px 10px #4950579e;
+}
+
+/* services-section */
+
+
+
