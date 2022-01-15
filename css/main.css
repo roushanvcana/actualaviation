@@ -350,7 +350,7 @@ pre {
 	margin-right: 0
 }
 .small-text {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 700;
 	letter-spacing: 0;
 	line-height: 1.6em;
@@ -7045,7 +7045,7 @@ body.boxed {
 	top: 0
 }
 [class*=-item]:hover .media-links a.abs-link {
-	opacity: 1
+	opacity: 0.26;
 }
 [class*=-item] .links-wrap a {
 	border: 2px solid transparent;
@@ -7495,10 +7495,10 @@ body.boxed {
 	background-color: #2f3e47
 }
 .ds a:not(.btn) {
-	color: #333
+	color: rgb(253, 249, 249)
 }
 .ds a:not(.btn):hover {
-	color: #042c6c
+	color: #f4ca59;
 }
 .ds h1, .ds h2, .ds h3, .ds h4, .ds h5, .ds h6 {
 	color: #fff
@@ -18234,14 +18234,252 @@ width: 90%;
 }
 
 .services-section .container .row .service-grid{
-	margin: 0 0 40px 0;
+	width: 100%;
+    margin: 0 0 43px 0;
+    height: 85%;
 }
 
 .services-section .container .row .service-grid .card{
 	box-shadow: 10px 10px 10px 10px #4950579e;
+	height: 100%;
+	width: 90%;
+	text-align: center;
 }
 
+.services-section .container .row .service-grid .card:hover{
+	transform: translate(0, -15px);
+    transition: .5s ease;
+    color: #FFFFFF;
+    background: #052d6d;
+}
+
+
 /* services-section */
+
+/* benefits-section */
+
+.benefits-section{
+	padding: 100px 50px 100px 50px;
+	/* background: #052d6d; */
+}
+
+.benefits-section .container .row .heading{
+	text-align: center;
+}
+
+.benefits-section .container .row h1{
+	color: #0c0c0c;
+}
+
+.benefits-section .container .row .inner-heading{
+	font-size: 18px;
+}
+
+.benefits-section .container .row h1 span{
+	color: #f4ca59;
+}
+
+.benefits-section .container .row .border{
+	border: 1px solid #0d161b;
+}
+
+.benefits-section .container .row .grid-heading{
+	text-align: center;
+	padding: 25px;
+}
+
+.benefits-section .container .row .grid-heading i{
+	font-size: 50px;
+	margin: 0 0 18px 0;
+	color: #f4ca59;
+}
+
+.benefits-section .container .row .grid-heading h6{
+	font-size: 30px;
+	margin: 10px;
+}
+
+.benefits-section .container .row .border:hover .service-hover-contnet {
+	 opacity: 1; 
+	visibility: visible;
+	top: 0;
+}
+.benefits-section .container .row .border:hover .service-hover-contnet:before {
+	top: 0;
+}
+
+/* .portfolio-item-img img {
+	width: 100%;
+} */
+
+.service-hover-contnet {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	 top: 50%; 
+	 bottom: 0%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	/* transition: all 0.1s ease; */
+	z-index: 5;
+}
+
+.service-hover-contnet:before {
+	position: absolute;
+	content: "";
+	 top: 50%;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: #f4ca59;
+	opacity: 0.8;
+	z-index: -1;
+}
+.service-hover-inner {
+	padding: 0 50px;
+	width: 100%;
+}
+
+.service-hover-inner ul{
+	list-style-type: none;
+}
+
+.service-hover-inner p {
+	color: #ffffff;
+}
+
+/* benefits-section */
+
+
+/* subscribe-section */
+
+.subscribe-section{
+	padding: 100px 50px 100px 50px;
+	background-image: url(../images/mailchimp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 100vw #384a5c9e;
+}
+
+.subscribe-section .container .row h1{
+	color: #f4ca59;
+}
+
+.subscribe-section .container .row h1 span{
+	color: #FFFFFF;
+}
+
+.subscribe-section .container .row .heading p{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.subscribe-section .container .row .heading {
+    padding: 15px 0 15px 0;
+}
+
+.subscribe-section .container .row .heading .email-type{
+	color: #FFFFFF;
+	width: 60%;
+    margin: 0 10px 0 0;
+}
+
+.subscribe-section .container .row .heading .btn-outline-darkgrey {
+    border-color: #f4ca59;
+    color: #FFFFFF;
+}
+
+/* subscribe-section */
+
+/* breadcrumb-gallery */
+
+.breadcrumb-gallery{
+	padding: 100px 50px 100px 50px;
+	background-image: url(../images/gallery/single-service.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 100vw #24394dc7;
+}
+
+.breadcrumb-gallery .container .row .crumb-text h2{
+	color: #f4ca59;
+	margin: 0 0 25px 0;
+}
+
+.breadcrumb-gallery .container .row .crumb-list ul.list {
+    list-style-type: none;
+    display: flex;
+	padding: 0%;
+}
+
+.breadcrumb-gallery .container .row .crumb-list ul.list li a{
+   font-size: 20px;
+   color: #FFFFFF;
+   font-weight: 600;
+}
+
+.breadcrumb-gallery .container .row .crumb-list ul.list li a:hover{
+	color: #f4ca59;
+ }
+
+.breadcrumb-gallery .container .row .crumb-list ul.list li.active {
+    font-size: 20px;
+    color: #f4ca59;
+	font-weight: 600;
+}
+
+
+/* breadcrumb-service */
+
+/* breadcrumb-testimonial */
+
+.breadcrumb-testimonial{
+	padding: 100px 50px 100px 50px;
+	background-image: url(../images/information-block.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 100vw #24394dc7;
+}
+
+.breadcrumb-testimonial .container .row .crumb-text h2{
+	color: #f4ca59;
+	margin: 0 0 25px 0;
+}
+
+.breadcrumb-testimonial .container .row .crumb-list ul.list {
+    list-style-type: none;
+    display: flex;
+	padding: 0%;
+}
+
+.breadcrumb-testimonial .container .row .crumb-list ul.list li a{
+   font-size: 20px;
+   color: #FFFFFF;
+   font-weight: 600;
+}
+
+.breadcrumb-testimonial .container .row .crumb-list ul.list li a:hover{
+	color: #f4ca59;
+ }
+
+.breadcrumb-testimonial .container .row .crumb-list ul.list li.active {
+    font-size: 20px;
+    color: #f4ca59;
+	font-weight: 600;
+}
+
+
+/* breadcrumb-testimonial */
+
+
+
 
 
 
